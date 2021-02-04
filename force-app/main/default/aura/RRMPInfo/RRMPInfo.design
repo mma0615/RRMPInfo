@@ -1,0 +1,3 @@
+<design:component >
+    <design:attribute name="conType" label="Contact Type" datasource="RRMP DI,RRMP NDC,RRMP Broker" default='RRMP DI' description="picklist" />
+</design:component>

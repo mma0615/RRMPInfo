@@ -1,0 +1,124 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Feb 03 2021 3:53:31 PM",
+    "testExecutionTimeInMs": 52,
+    "testTotalTimeInMs": 52,
+    "commandTimeInMs": 518,
+    "hostname": "https://blocx-dev-ed.my.salesforce.com",
+    "orgId": "00D3h0000066HkzEAE",
+    "username": "blocx@cgs.com",
+    "testRunId": "7073h00001nzgME",
+    "userId": "0053h000003Cg4MAAS",
+    "totalLines": 6,
+    "coveredLines": 6,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "8%"
+  },
+  "tests": [
+    {
+      "id": "07M3h000003s1i4EAA",
+      "queueItemId": "7093h000000MZUaAAO",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7073h00001nzgMEAAY",
+      "methodName": "getRRMPContactInfoNullTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p3h00000FVFY2AAP",
+        "name": "RRMPInfoControllerTest",
+        "namespacePrefix": null,
+        "fullName": "RRMPInfoControllerTest"
+      },
+      "runTime": 38,
+      "testTimestamp": "2021-02-03T23:53:31.000+0000",
+      "fullName": "RRMPInfoControllerTest.getRRMPContactInfoNullTest",
+      "perTestCoverage": {
+        "apexClassOrTriggerName": "RRMPInfoController",
+        "apexClassOrTriggerId": "01p3h00000FVFY1AAP",
+        "apexTestClassId": "01p3h00000FVFY2AAP",
+        "apexTestMethodName": "getRRMPContactInfoNullTest",
+        "numLinesCovered": 6,
+        "numLinesUncovered": 0,
+        "percentage": "100%",
+        "coverage": {
+          "coveredLines": [
+            3,
+            4,
+            6,
+            7,
+            8,
+            12
+          ],
+          "uncoveredLines": []
+        }
+      }
+    },
+    {
+      "id": "07M3h000003s1i5EAA",
+      "queueItemId": "7093h000000MZUaAAO",
+      "stackTrace": "Class.RRMPInfoControllerTest.getRRMPContactInfoTest: line 13, column 1",
+      "message": "System.QueryException: List has no rows for assignment to SObject",
+      "asyncApexJobId": "7073h00001nzgMEAAY",
+      "methodName": "getRRMPContactInfoTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p3h00000FVFY2AAP",
+        "name": "RRMPInfoControllerTest",
+        "namespacePrefix": null,
+        "fullName": "RRMPInfoControllerTest"
+      },
+      "runTime": 14,
+      "testTimestamp": "2021-02-03T23:53:32.000+0000",
+      "fullName": "RRMPInfoControllerTest.getRRMPContactInfoTest",
+      "perTestCoverage": {
+        "apexClassOrTriggerName": "RRMPInfoController",
+        "apexClassOrTriggerId": "01p3h00000FVFY1AAP",
+        "apexTestClassId": "01p3h00000FVFY2AAP",
+        "apexTestMethodName": "getRRMPContactInfoTest",
+        "numLinesCovered": 6,
+        "numLinesUncovered": 0,
+        "percentage": "100%",
+        "coverage": {
+          "coveredLines": [
+            3,
+            4,
+            6,
+            7,
+            8,
+            12
+          ],
+          "uncoveredLines": []
+        }
+      }
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p3h00000FVFY1AAP",
+      "name": "RRMPInfoController",
+      "type": "ApexClass",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        12
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

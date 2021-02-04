@@ -1,0 +1,42 @@
+[
+  {
+    "apexClassOrTriggerName": "RRMPInfoController",
+    "apexClassOrTriggerId": "01p3h00000FVFY1AAP",
+    "apexTestClassId": "01p3h00000FVFY2AAP",
+    "apexTestMethodName": "getRRMPContactInfoNullTest",
+    "numLinesCovered": 6,
+    "numLinesUncovered": 0,
+    "percentage": "100%",
+    "coverage": {
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        12
+      ],
+      "uncoveredLines": []
+    }
+  },
+  {
+    "apexClassOrTriggerName": "RRMPInfoController",
+    "apexClassOrTriggerId": "01p3h00000FVFY1AAP",
+    "apexTestClassId": "01p3h00000FVFY2AAP",
+    "apexTestMethodName": "getRRMPContactInfoTest",
+    "numLinesCovered": 6,
+    "numLinesUncovered": 0,
+    "percentage": "100%",
+    "coverage": {
+      "coveredLines": [
+        3,
+        4,
+        6,
+        7,
+        8,
+        12
+      ],
+      "uncoveredLines": []
+    }
+  }
+]

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>RRMP_Contact_Info__c.Active__c</members>
+		<members>RRMP_Contact_Info__c.Contact_Email__c</members>
+		<members>RRMP_Contact_Info__c.Contact_Number__c</members>
+		<members>RRMP_Contact_Info__c.Fax_Number__c</members>
+		<members>RRMP_Contact_Info__c.Screen_Message__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>RRMP_Contact_Info__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>RRMP_Contact_Info__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>RRMP_Contact_Info__c-RRMP Contact Information Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>RRMP_Contact_Info__c.All</members>
+		<name>ListView</name>
+	</types>
+	<types>
+		<members>RRMP_Contact_Info__c.RRMP_Broker</members>
+		<members>RRMP_Contact_Info__c.RRMP_DI</members>
+		<members>RRMP_Contact_Info__c.RRMP_NDC</members>
+		<name>RecordType</name>
+	</types>
+	<version>50.0</version>
+</Package>
