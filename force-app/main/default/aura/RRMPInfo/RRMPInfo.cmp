@@ -2,18 +2,22 @@
     <aura:handler name="init" value="{!this}" action="{!c.init}"/>
     <aura:attribute name="recordId" type = "String"/>
     <aura:attribute name="scrnMsg"  type = "String"/>
+    <aura:attribute name="ContactEmail"  type = "String"/>
+    <aura:attribute name="ContactNumber"  type = "String"/>
+    <aura:attribute name="FaxNumber"  type = "String"/>
     <aura:attribute name="conType"  type = "String"/>
     
     <!--Display Information-->
     <aura:if isTrue="{!v.recordId != null}">
-        <lightning:card title="{!v.scrnMsg}">
-            <lightning:recordViewForm recordId="{!v.recordId}" objectApiName="RRMP_Contact_Info__c">
-                <div class="slds-box" padding="5px;">
-                    <lightning:outputField variant="label-inline" fieldName="Contact_Email__c"/>
-                    <lightning:outputField variant="label-inline" fieldName="Contact_Number__c"/>
-                    <lightning:outputField variant="label-inline" fieldName="Fax_Number__c"/>
-                </div>
-            </lightning:recordViewForm>
+        <lightning:card>
+            <div class="slds-var-m-around_medium" style="text-align:center">
+                <ul class="slds-m-around_medium">
+                    <li><b>{!v.scrnMsg}</b></li>
+                    <li>Contact Email: {!v.ContactEmail}</li>
+                    <li>Contact Number: {!v.ContactNumber}</li>
+                    <li>Fax Number: {!v.FaxNumber}</li>
+                </ul>    
+            </div>
         </lightning:card>
 
         <aura:set attribute="else">

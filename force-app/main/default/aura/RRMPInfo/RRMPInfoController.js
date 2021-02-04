@@ -12,6 +12,9 @@
                 {
                     component.set("v.recordId", conInfo.Id);
                     component.set("v.scrnMsg", conInfo.Screen_Message__c);
+                    component.set("v.ContactEmail", conInfo.Contact_Email__c);
+                    component.set("v.ContactNumber", conInfo.Contact_Number__c);
+                    component.set("v.FaxNumber", conInfo.Fax_Number__c);
                 }
                 
             } else {
