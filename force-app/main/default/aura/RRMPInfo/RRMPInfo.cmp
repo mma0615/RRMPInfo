@@ -7,10 +7,10 @@
     <aura:attribute name="FaxNumber"  type = "String"/>
     <aura:attribute name="conType"  type = "String"/>
     
-    <!--Display Information-->
     <aura:if isTrue="{!v.recordId != null}">
+        <!--Display contact information -->
         <lightning:card>
-            <div class="slds-var-m-around_medium" style="text-align:center">
+            <div class="slds-var-m-around_medium" style="word-wrap: break-word; text-align:center">
                 <ul class="slds-m-around_medium">
                     <li><b>{!v.scrnMsg}</b></li>
                     <li>Contact Email: {!v.ContactEmail}</li>
@@ -21,9 +21,14 @@
         </lightning:card>
 
         <aura:set attribute="else">
-            <lightning:card>
-                <p style="color:red">Contact information couldn't be retrieved. Please contact system administrator!</p>
-            </lightning:card>
+            <!--Display no record found message-->
+            <aura:if isTrue="{!v.scrnMsg == 'NoRecordFound'}">
+                <lightning:card>
+                    <div class="slds-var-m-around_medium" style="word-wrap: break-word; text-align:center">
+                        <p style="color:red">Contact information couldn't be retrieved. Please contact system administrator!</p>
+                    </div>    
+                </lightning:card>
+            </aura:if>    
         </aura:set>
     </aura:if>
     
